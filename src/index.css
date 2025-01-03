@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.animated-bg {
+  @apply bg-[200%_200%] animate-[gradientAnimation_2s_ease_infinite];
+  background: linear-gradient(
+    45deg,
+    rgba(0, 136, 255, 0.886),
+    rgba(26, 243, 160, 0.788),
+    rgba(255, 179, 0, 0.738)
+  );
+}
+.btn-01 {
+  @apply bg-[#EDF0F3] text-black/[.5] font-normal text-sm rounded-full mt-5 p-2;
+}
+
+.btn-02 {
+  @apply bg-blue-500 text-white px-4 py-2 rounded;
+}
+
+.btn-03 {
+  @apply bg-transparent text-black/[.5] font-normal text-sm rounded-full h-[40px];
+}
+
+.btn-04 {
+  @apply bg-blue-500 text-white rounded-full font-bold font-montserrat h-[40px];
+}
+
+.btn-05 {
+  @apply bg-[#EDF0F3] text-black/[.5] font-bold rounded-full h-[40px];
+}
+.btn-06 {
+  @apply bg-transparent text-black font-normal text-[20px] font-poppins rounded-full w-[216px] h-[57px];
+}
+
+.placeholder-poppins::placeholder {
+  @apply font-poppins;
+}
+
+.otp-input {
+  @apply rounded-full w-20 h-20 border-4 border-[#6610F2] font-medium text-5xl text-center text-[#6610F2] font-poppins caret-[#418DFD];
+  width: 5rem !important;
+}
+
+.menu-el-focus {
+  @apply bg-white;
+}
+.color-it {
+  @apply bg-[#418DFD] text-[16px];
+}
+
+this-my-scrollbar::-webkit-scrollbar-thumb {
+  /* @apply scrollbar-thumb-[#6610F2]; */
+  border-top-right-radius: 0.5rem /* 8px */ !important;
+  border-bottom-right-radius: 0.5rem /* 8px */ !important;
+}
+this-my-scrollbar::-webkit-scrollbar-track {
+  border-top-right-radius: 0.5rem /* 8px */ !important;
+  border-bottom-right-radius: 0.5rem /* 8px */ !important;
+}
+
+/* Add the animate utility class */
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

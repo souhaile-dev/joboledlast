@@ -1,0 +1,44 @@
+{
+  "personalInfo": {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "address": ""
+  },
+  "education": [
+    {
+      "degree": "",
+      "school": "",
+      "graduationYear": ""
+    }
+  ],
+  "experience": [
+    {
+      "position": "",
+      "company": "",
+      "startDate": "",
+      "endDate": "",
+      "responsibilities": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "",
+      "list": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "",
+      "proficiency": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "",
+      "description": "",
+      "technologies": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+/* ... */
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .all-\[unset\] {
+        all: unset;
+    }
+}
+
+:root {
+    --black: rgba(3, 3, 3, 1);
+    --body-text-font-family: "Poppins-Medium", Helvetica;
+    --body-text-font-size: 16px;
+    --body-text-font-style: normal;
+    --body-text-font-weight: 500;
+    --body-text-letter-spacing: 0px;
+    --body-text-line-height: normal;
+    --buttons-and-calls-to-action-font-family: "Montserrat-Bold", Helvetica;
+    --buttons-and-calls-to-action-font-size: 16px;
+    --buttons-and-calls-to-action-font-style: normal;
+    --buttons-and-calls-to-action-font-weight: 700;
+    --buttons-and-calls-to-action-letter-spacing: 0px;
+    --buttons-and-calls-to-action-line-height: normal;
+    --captions-font-family: "Poppins-Regular", Helvetica;
+    --captions-font-size: 12px;
+    --captions-font-style: normal;
+    --captions-font-weight: 400;
+    --captions-letter-spacing: 0px;
+    --captions-line-height: normal;
+    --form-inputs-and-labels-font-family: "Poppins-Regular", Helvetica;
+    --form-inputs-and-labels-font-size: 14px;
+    --form-inputs-and-labels-font-style: normal;
+    --form-inputs-and-labels-font-weight: 400;
+    --form-inputs-and-labels-letter-spacing: 0px;
+    --form-inputs-and-labels-line-height: normal;
+    --green: rgba(48, 233, 129, 1);
+    --headings-font-family: "Montserrat-Regular", Helvetica;
+    --headings-font-size: 32px;
+    --headings-font-style: normal;
+    --headings-font-weight: 400;
+    --headings-letter-spacing: 0px;
+    --headings-line-height: normal;
+    --light-blue: rgba(65, 141, 253, 1);
+    --main-color: rgba(102, 16, 242, 1);
+    --navigation-and-menu-items-font-family: "Poppins-Regular", Helvetica;
+    --navigation-and-menu-items-font-size: 14px;
+    --navigation-and-menu-items-font-style: normal;
+    --navigation-and-menu-items-font-weight: 400;
+    --navigation-and-menu-items-letter-spacing: 0px;
+    --navigation-and-menu-items-line-height: normal;
+    --orange: rgba(254, 118, 75, 1);
+    --red: rgba(240, 90, 88, 1);
+    --styled-headlines-font-family: "SpaceGrotesk-Regular", Helvetica;
+    --styled-headlines-font-size: 36px;
+    --styled-headlines-font-style: normal;
+    --styled-headlines-font-weight: 400;
+    --styled-headlines-letter-spacing: 0px;
+    --styled-headlines-line-height: normal;
+    --subheadings-font-family: "Poppins-Regular", Helvetica;
+    --subheadings-font-size: 20px;
+    --subheadings-font-style: normal;
+    --subheadings-font-weight: 400;
+    --subheadings-letter-spacing: 0px;
+    --subheadings-line-height: normal;
+    --white: rgba(255, 255, 255, 1);
+    --white-grey: rgba(237, 240, 243, 1);
+}
